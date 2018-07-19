@@ -4,7 +4,10 @@ Experiemental project to read (and maybe playback) content of Pioneer Rekordbox 
 
 Some literature to check:
 
-https://github.com/henrybetts/Rekordbox-Decoding/blob/master/example-parse/src/main.c
 https://github.com/flesniak/python-prodj-link/tree/master/pdblib
-https://github.com/brunchboy/dysentery/tree/master/doc
-https://bitbucket.org/awwright/libpdjl/src
+
+(https://github.com/henrybetts/Rekordbox-Decoding/blob/master/example-parse/src/main.c)
+(https://github.com/brunchboy/dysentery/tree/master/doc)
+(https://bitbucket.org/awwright/libpdjl/src)
+
+
