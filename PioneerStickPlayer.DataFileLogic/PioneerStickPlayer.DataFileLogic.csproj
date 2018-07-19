@@ -40,7 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ByteArrayExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RekordBoxContentReader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PioneerStickPlayer.Interfaces\PioneerStickPlayer.Interfaces.csproj">
+      <Project>{AC87D2F9-27BF-4A52-8F9D-61BCA3088880}</Project>
+      <Name>PioneerStickPlayer.Interfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

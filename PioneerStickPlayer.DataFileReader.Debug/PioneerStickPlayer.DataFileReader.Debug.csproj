@@ -49,6 +49,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PioneerStickPlayer.DataFileLogic\PioneerStickPlayer.DataFileLogic.csproj">
+      <Project>{D759A4D7-B511-4758-8EC5-577ACA96DFB0}</Project>
+      <Name>PioneerStickPlayer.DataFileLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PioneerStickPlayer.Interfaces\PioneerStickPlayer.Interfaces.csproj">
+      <Project>{AC87D2F9-27BF-4A52-8F9D-61BCA3088880}</Project>
+      <Name>PioneerStickPlayer.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

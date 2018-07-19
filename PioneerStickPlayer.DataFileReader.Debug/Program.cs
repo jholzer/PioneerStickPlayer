@@ -1,15 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
+using PioneerStickPlayer.DataFileLogic;
 
 namespace PioneerStickPlayer.DataFileReader.Debug
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
+            var path = args.FirstOrDefault();
+
+            var reader = new RekordBoxContentReader();
+            reader.ReadContent(path);
         }
     }
 }
