@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PioneerStickPlayer.Interfaces", "PioneerStickPlayer.Interfaces\PioneerStickPlayer.Interfaces.csproj", "{AC87D2F9-27BF-4A52-8F9D-61BCA3088880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PioneerStickPlayer.DataFileLogic", "PioneerStickPlayer.DataFileLogic\PioneerStickPlayer.DataFileLogic.csproj", "{D759A4D7-B511-4758-8EC5-577ACA96DFB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PioneerStickPlayer.DataFileReader.Debug", "PioneerStickPlayer.DataFileReader.Debug\PioneerStickPlayer.DataFileReader.Debug.csproj", "{2FAC2F37-A8A7-44E2-8958-D8649886DDF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC87D2F9-27BF-4A52-8F9D-61BCA3088880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC87D2F9-27BF-4A52-8F9D-61BCA3088880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC87D2F9-27BF-4A52-8F9D-61BCA3088880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC87D2F9-27BF-4A52-8F9D-61BCA3088880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D759A4D7-B511-4758-8EC5-577ACA96DFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D759A4D7-B511-4758-8EC5-577ACA96DFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D759A4D7-B511-4758-8EC5-577ACA96DFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D759A4D7-B511-4758-8EC5-577ACA96DFB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FAC2F37-A8A7-44E2-8958-D8649886DDF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FAC2F37-A8A7-44E2-8958-D8649886DDF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FAC2F37-A8A7-44E2-8958-D8649886DDF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FAC2F37-A8A7-44E2-8958-D8649886DDF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
