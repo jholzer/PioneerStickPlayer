@@ -2,18 +2,13 @@
 
 namespace PioneerStickPlayer.Interfaces.FileDataStructs
 {
-    [StructLayout(LayoutKind.Explicit)]
+    [StructLayout(LayoutKind.Sequential, Pack = 1)]
     public struct FileHeader
     {
-        [FieldOffset(4)]
         public int PageSize;
-        [FieldOffset(8)]
         public int PageEntries;
-        [FieldOffset(12)]
         public int NextUnusedPage;
-        [FieldOffset(16)]
         public int Unknown;
-        [FieldOffset(24)]
         public int Sequence;
 
     }

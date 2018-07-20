@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 using PioneerStickPlayer.Interfaces.Enum;
 
 namespace PioneerStickPlayer.Interfaces.FileDataStructs
 {
+    [StructLayout(LayoutKind.Sequential, Pack = 1)]
     public struct FileHeaderEntry
     {
         public PageType PageType;

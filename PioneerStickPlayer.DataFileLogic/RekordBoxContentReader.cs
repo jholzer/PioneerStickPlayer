@@ -25,10 +25,10 @@ namespace PioneerStickPlayer.DataFileLogic
         {
             var buffer = ReadPage(reader);
 
-            var header = buffer.ToStruct<FileHeader>();
+            var header = buffer.ToStruct<FileHeader>(4);
 
             var headerEntries = Enumerable.Range(0, header.PageEntries)
-                .Select(entryId => buffer.ToStruct<FileHeaderEntry>(36 + entryId * 32)) // Is this offset matching? Must be evaluated...
+                .Select(entryId => buffer.ToStruct<FileHeaderEntry>(44 + entryId * 32)) // Is this offset matching? Must be evaluated...
                 .ToArray();
             return headerEntries;
         }
